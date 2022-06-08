@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-img-proyectos {
+    background-image: url('./img/mep3.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+
+.container-projects {
+    width: 100%;
+    margin-top: 230px;
+    position: absolute;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 20px
+}
+
+.container-projects p {
+    margin: 5px;
+}
+
+/*  Media querie tablet to pc    */
+
+@media screen and (min-width: 600px) {
+    .container-projects {
+        width: 500px;
+        margin-top: 230px;
+        margin-left: 70px;
+        position: absolute;
+        color: aliceblue;
+        font-size: 20px;
+        padding: 20px
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container-projects {
+        width: 500px;
+        margin-top: 230px;
+        margin-left: 285px;
+
+    }
+}

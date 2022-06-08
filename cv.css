@@ -1,0 +1,7 @@
+.bg-img-cv {
+    background-image: url('./img/mep4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
