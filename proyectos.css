@@ -4,12 +4,27 @@
 }
 
 .bg-img-proyectos {
+    /* background-image: url('./img/mep3.webp');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 100vh;
+    position: relative;
+    background-color: black;
+
+}
+
+.bg-img-proyectos::before {
+    content: "";
+    opacity: 0.6;
     background-image: url('./img/mep3.webp');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    position: relative;
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .container-projects {

@@ -1,9 +1,24 @@
 .bg-img-investigacion {
+    /* background-image: url('./img/mep4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+.bg-img-investigacion::before {
+    content: "";
+    opacity: 0.6;
     background-image: url('./img/mep4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .investigacion-container {
