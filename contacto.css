@@ -1,7 +1,29 @@
 .bg-img-contacto {
-    background-image: url('./img/mep7.webp');
+    background-image: url('./img/mep8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     position: relative;
+}
+
+.container-contacto {
+    position: absolute;
+    margin-top: 220px;
+    color: aliceblue;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/*  Media querie tablet to pc    */
+
+@media screen and (min-width: 700px) {
+    .container-contacto {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container-contacto {
+        margin-left: 280px;
+    }
 }

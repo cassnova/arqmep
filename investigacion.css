@@ -5,3 +5,32 @@
     height: 100vh;
     position: relative;
 }
+
+.investigacion-container {
+    width: 100%;
+    height: 200px;
+    margin-top: 200px;
+    padding: 40px;
+    position: absolute;
+    color: aliceblue;
+
+}
+
+/*  Media querie tablet to pc    */
+
+@media screen and (min-width: 1000px) {
+    .investigacion-container {
+        width: 600px;
+        height: 500px;
+        font-size: 20px;
+        text-align: auto;
+        margin-top: 200px;
+        margin-left: 270px;
+        padding: 40px;
+        position: absolute;
+        color: aliceblue;
+
+    }
+
+
+}

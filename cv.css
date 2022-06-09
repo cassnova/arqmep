@@ -5,3 +5,26 @@
     height: 100vh;
     position: relative;
 }
+
+.container-cv {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    color: aliceblue;
+    margin-top: 220px;
+}
+
+@media screen and (min-width: 700px) {
+    .container-cv {
+
+        width: 500px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container-cv {
+        margin-left: 200px;
+    }
+}
