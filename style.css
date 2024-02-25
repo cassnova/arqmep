@@ -1,12 +1,54 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .bg-img {
-    background-image: url('./img/mep1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+  /* background-image: url('./img/mep1.jpg'); */
+  /* background-size: cover;
+    background-repeat: no-repeat; */
+  /* height: 100vh; */
+  background-color: #e6e6e6;
+  font-family: "IBM Plex Mono";
 }
 
+.logo-navbar {
+  color: #050037 !important;
+}
+
+.container-principal {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-principal h1{
+  font-family: "IBM Plex Mono";
+  font-size: 30rem;
+  font-weight: bold;
+  transition: ease-in-out .5s;
+}
+
+/*                MEDIA QUERIES CELULARES                    */
+@media (max-width: 768px) {
+  .container-principal h1 {
+    font-size: 9rem;
+  }
+}
+
+/*                MEDIA QUERIES TABLETS                   */
+@media (max-width: 1300px) and (min-width: 769px){
+  .container-principal h1 {
+    font-size: 20rem;
+  }
+}
+
+.container-principal h1:hover{
+  box-shadow: rgba(5, 00, 5, 0.4) 5px 5px, rgba(5, 00, 5, 0.3) 10px 10px, rgba(5, 00, 5, 0.2) 15px 15px, rgba(5, 00, 5, 0.1) 20px 20px, rgba(5, 00, 5, 0.05) 25px 25px;
+}
+
+.menu-burger{
+  background-color: #050037 !important;
+}
