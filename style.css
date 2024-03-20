@@ -31,6 +31,27 @@
   transition: ease-in-out .5s;
 }
 
+.linea-divisoria{
+  width: 1px;
+  height: 20px;
+  background-color: black;
+  margin: auto;
+}
+
+.margin-li{
+  margin: 0px 10px;
+}
+
+.txt-que-hacemos{
+  color: #050036;
+  font-size: 5rem;
+  letter-spacing: 5px;
+}
+
+.subrayado-letra{
+  text-decoration: underline;
+}
+
 /*                MEDIA QUERIES CELULARES                    */
 @media (max-width: 768px) {
   .container-principal h1 {
