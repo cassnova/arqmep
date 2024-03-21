@@ -52,6 +52,60 @@
   text-decoration: underline;
 }
 
+.container-txt-que-hacemos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-txt-que-hacemos p{
+  padding: 0px 50px;
+  margin-bottom: 0px;
+}
+
+.container-principal__equipo{
+  width: 100%;
+  padding: 0px 100px;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.container-principal__equipo--nombre-principal{
+  color: #050036;
+}
+
+.container-principal__equipo--nombre-principal__p{
+  margin-bottom: 0px;
+  color: #3D395A;
+  font-size: 1.2rem;
+}
+
+.container-principal__proyectos{
+  width: 100%;
+  padding: 0px 100px;
+  justify-content: space-between;
+}
+
+.container-btn-bim{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.btn-bim{
+  background-color: #050036;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border: none;
+  transition: ease-in-out .3s;
+}
+
+.btn-bim:hover{
+  background-color: #1f1859;
+}
+
 /*                MEDIA QUERIES CELULARES                    */
 @media (max-width: 768px) {
   .container-principal h1 {
